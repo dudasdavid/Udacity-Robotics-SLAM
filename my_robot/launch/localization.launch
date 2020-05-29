@@ -2,7 +2,7 @@
 
 <launch>
   <!-- Arguments for launch file with defaults provided -->
-  <arg name="database_path"     default="rtabmap.db"/>
+  <arg name="database_path"     default="$(find my_robot)/database/rtabmap.db"/>
   <arg name="rgb_topic"   default="/camera/rgb/image_raw"/>
   <arg name="depth_topic" default="/camera/depth/image_raw"/>
   <arg name="camera_info_topic" default="/camera/rgb/camera_info"/>  
